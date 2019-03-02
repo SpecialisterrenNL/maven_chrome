@@ -1,6 +1,6 @@
-FROM maven:3.6.0-jdk-11-slim
+FROM maven:3.5-jdk-9-slim
 
-LABEL version="0.1.0"
+LABEL version="0.1.1"
 
 #Based on best practice of docker.com
 RUN apt-get update && apt-get install -y \
